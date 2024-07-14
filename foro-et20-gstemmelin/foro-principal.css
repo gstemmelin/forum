@@ -1,0 +1,37 @@
+*{
+    margin: 5%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(218, 218, 218);
+    color: black;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.contenedor{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    background-color: rgb(218, 218, 218);
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all .2s ease-in-out; 
+}
+
+.caja:hover{
+    transform: scale(1.1); 
+}
+
